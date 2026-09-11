@@ -128,7 +128,7 @@ section h2 {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
   border: 1px solid var(--border);
 }
 
@@ -146,22 +146,6 @@ section h2 {
 .hero .socials a {
   margin-right: 1rem;
   font-weight: 500;
-}
-
-/* Skills */
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-
-.skill-tag {
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.35rem 0.9rem;
-  font-size: 0.9rem;
-  color: var(--text);
 }
 
 /* Projects */
