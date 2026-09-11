@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oscar Berntsson</title>
+  <meta name="description" content="Oscar Berntsson — portfolio and blog." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Oscar Berntsson</a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img class="avatar" src="assets/img/profile.jpg" alt="Photo of Oscar Berntsson" onerror="this.style.display='none'" />
+      <div>
+        <h1>Oscar Berntsson</h1>
+        <p class="tagline">Software developer. TODO: replace with your own one-line tagline.</p>
+        <div class="socials">
+          <a href="https://github.com/oscarberntsson" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/REPLACE-ME" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:oscarbernt@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        TODO: Write a short bio here — who you are, what you work on, and what
+        you're interested in. A couple of sentences is plenty.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">TODO: edit this list</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>TODO: One or two sentences describing this project and what problem it solves.</p>
+          <div class="project-tags">
+            <span>TypeScript</span>
+            <span>React</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+            <a href="#" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>TODO: One or two sentences describing this project and what problem it solves.</p>
+          <div class="project-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li><span class="label">Email</span> <a href="mailto:oscarbernt@gmail.com">oscarbernt@gmail.com</a></li>
+        <li><span class="label">GitHub</span> <a href="https://github.com/oscarberntsson" target="_blank" rel="noopener">github.com/oscarberntsson</a></li>
+        <li><span class="label">LinkedIn</span> <a href="https://www.linkedin.com/in/REPLACE-ME" target="_blank" rel="noopener">linkedin.com/in/REPLACE-ME</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Oscar Berntsson</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>
