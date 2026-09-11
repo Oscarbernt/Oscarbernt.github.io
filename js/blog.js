@@ -46,6 +46,13 @@
     }
 
     document.title = meta.title + " — Oscar Berntsson";
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.setAttribute("rel", "canonical");
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute("href", "https://oscarberntsson.se/post.html?slug=" + encodeURIComponent(slug));
     header.innerHTML =
       "<h1>" + meta.title + "</h1>" +
       '<p class="post-meta">' + formatDate(meta.date) + "</p>";
