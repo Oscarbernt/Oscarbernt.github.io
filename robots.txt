@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://oscarberntsson.se/sitemap.xml
+Sitemap: https://www.oscarberntsson.se/sitemap.xml

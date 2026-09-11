@@ -52,7 +52,7 @@
       canonical.setAttribute("rel", "canonical");
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute("href", "https://oscarberntsson.se/post.html?slug=" + encodeURIComponent(slug));
+    canonical.setAttribute("href", "https://www.oscarberntsson.se/post.html?slug=" + encodeURIComponent(slug));
     header.innerHTML =
       "<h1>" + meta.title + "</h1>" +
       '<p class="post-meta">' + formatDate(meta.date) + "</p>";
